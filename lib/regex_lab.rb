@@ -16,7 +16,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   
-  text.match(/^{\b)
+  text.match(/^[A-Z]\b)
 
 end
 
